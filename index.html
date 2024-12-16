@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+<link rel="stylesheet" href="stylecss.css">
+
+</head>
+<body>
+
+<div class="main-container">
+    <div class="container-1">
+        <h1 class="logo"><span class="logo1">Roi</span><span class="logo2">Hub</span></h1>
+
+       >
+        <h1 class="there">THERE'S A LOT <br> MORE TO HUB <br> THAN YOU THINK!</h1>
+    </div>
+
+    <div class="container-2">
+       
+        <form id="loginForm" onsubmit="Login(event)">
+            <div class="header">
+                <h1 style="text-align: center; background-color:#ff9000;color:black;border-radius: 7px;">Member Sign In</h1>
+                <p>Access your Roihub or RoiHub Premium</p>
+            </div>
+
+            
+            <div class="input-box">
+                 <input type="text" id="text" placeholder="Username" class="input-1" >
+            </div>
+            <div class="input-box">
+                <input type="password" id="password" placeholder="Password" class="input-2">
+            </div>
+
+            <div class="box">
+                <label>
+                    <input type="checkbox" onclick="showpass(this)"> Show Password
+                </label>
+            </div>
+
+            <div>
+                <button type="submit" class="btn">LOGIN</button>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="main.js"></script>
+
+</body>
+</html>
